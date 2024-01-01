@@ -1,0 +1,19 @@
+{
+  "name": "vite-shader-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "glslify": "^7.1.1",
+    "three": "^0.157.0",
+    "vite-plugin-glslify": "^2.0.2"
+  }
+}
